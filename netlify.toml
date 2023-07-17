@@ -4,3 +4,19 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[context.production.environment]
+  NEXT_SPLIT_API_ROUTES = "true"
+  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
+  
+[context.deploy-preview.environment]
+  NEXT_SPLIT_API_ROUTES = "true"
+  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
+
+[context.branch-deploy.environment]
+  NEXT_SPLIT_API_ROUTES = "true"
+  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
+
+[context.dev.environment]
+  NEXT_SPLIT_API_ROUTES = "true"
+  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
