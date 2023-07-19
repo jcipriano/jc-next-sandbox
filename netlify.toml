@@ -7,16 +7,12 @@
 
 [context.production.environment]
   TOML_ENV_VAR = "production-toml-env-var"
-  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
   
 [context.deploy-preview.environment]
   TOML_ENV_VAR = "deploy-preview-toml-env-var"
-  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
 
 [context.branch-deploy.environment]
   TOML_ENV_VAR = "branch-deploy-toml-env-var"
-  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
 
 [context.dev.environment]
   TOML_ENV_VAR = "dev-deploy-toml-env-var"
-  NEXT_BUNDLE_BASED_ON_NFT_FILES = "true"
