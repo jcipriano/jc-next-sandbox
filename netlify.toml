@@ -1,5 +1,5 @@
 [build]
-  command = "echo $URL && echo $DEPLOY_PRIME_URL"
+  command = "echo $CUSTOM_VAR"
   publish = ".next"
 
 [[plugins]]
