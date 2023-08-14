@@ -4,3 +4,6 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[template.environment]
+  CUSTOM_VAR = "hello world"
