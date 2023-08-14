@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build && echo $DEPLOY_PRIME_URL"
+  command = "echo 'DEPLOY_PRIME_URL' && echo $DEPLOY_PRIME_URL && npm run build"
   publish = ".next"
 
 [[plugins]]
-  package = "netlify-plugin-cypress"
+  package = "netlify-plugin-cypress"å
